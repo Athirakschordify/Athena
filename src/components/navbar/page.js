@@ -53,7 +53,10 @@ export default function Component() {
         <Sheet>
           <div className="md:hidden">
             <SheetTrigger asChild>
-              <Button size="icon" className="bg-transparent">
+              <Button
+                size="icon"
+                className="bg-transparent hover:bg-transparent focus:bg-transparent active:bg-transparent"
+              >
                 <MenuIcon className="h-6 w-6" />
                 <span className="sr-only">Toggle navigation menu</span>
               </Button>
@@ -106,7 +109,7 @@ export default function Component() {
       <div className="flex items-center h-full px-8 md:px-10 lg:px-12">
         <div className="max-w-3xl">
           <h1
-            className={`text-white ${merriweather.className} text-center text-[20px] md:text-left lg:text-[44.8px] md:text-[30px] sm:text-[30px]`}
+            className={`text-white ${merriweather.className} text-center text-[25px] md:text-left lg:text-[44.8px] md:text-[30px] sm:text-[30px]`}
           >
             Welcome to the world’s first digital currency backed by the cultural
             legacy of humanity’s greatest artists.
