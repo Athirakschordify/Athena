@@ -53,22 +53,22 @@ export default function Component() {
         <Sheet>
           <div className="md:hidden">
             <SheetTrigger asChild>
-              <Button variant="outline" size="icon">
+              <Button size="icon" className="bg-transparent">
                 <MenuIcon className="h-6 w-6" />
                 <span className="sr-only">Toggle navigation menu</span>
               </Button>
             </SheetTrigger>
           </div>
           <SheetContent side="left" className=" bg-black">
-            <div className="grid w-[200px] p-4">
+            <div className="grid w-[500px] p-10">
               {/* Links for mobile view */}
-              <div className="flex flex-col gap-4">
+              <div className="flex flex-col gap-16">
                 <Link
                   href="#"
                   className="flex items-center gap-2"
                   prefetch={false}
                 >
-                  <Image src="/logo.png" alt="Logo" width={200} height={150} />
+                  <Image src="/logo.png" alt="Logo" width={150} height={150} />
                 </Link>
                 <Link
                   href="#"
@@ -106,7 +106,7 @@ export default function Component() {
       <div className="flex items-center h-full px-8 md:px-10 lg:px-12">
         <div className="max-w-3xl">
           <h1
-            className={`text-white ${merriweather.className} text-center md:text-left lg:text-[44.8px] md:text-[30px] sm:text-[30px]`}
+            className={`text-white ${merriweather.className} text-center text-[20px] md:text-left lg:text-[44.8px] md:text-[30px] sm:text-[30px]`}
           >
             Welcome to the world’s first digital currency backed by the cultural
             legacy of humanity’s greatest artists.
