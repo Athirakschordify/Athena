@@ -17,7 +17,7 @@ export default function Component() {
     >
       <div className="flex items-center justify-between px-4 py-6 bg-black bg-opacity-50">
         <Link href="#" className="flex items-center gap-2" prefetch={false}>
-          <Image src="/logo.png" alt="Logo" width={200} height={150} />
+          <Image src="/logo.png" alt="Logo" width={150} height={150} />
         </Link>
         <div className="hidden md:flex gap-10">
           <Link
@@ -109,7 +109,7 @@ export default function Component() {
       <div className="flex items-center h-full px-8 md:px-10 lg:px-12">
         <div className="max-w-3xl">
           <h1
-            className={`text-white ${merriweather.className} text-center text-[25px] md:text-left lg:text-[44.8px] md:text-[30px] sm:text-[30px]`}
+            className={`text-white ${merriweather.className} text-center text-[24px] md:text-left lg:text-[40px] md:text-[30px] sm:text-[30px]`}
           >
             Welcome to the world’s first digital currency backed by the cultural
             legacy of humanity’s greatest artists.
